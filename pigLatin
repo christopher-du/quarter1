@@ -1,0 +1,15 @@
+// given a string, return it in Pig Latin form 
+// ex: Banana returns anana-bay
+import java.io.*;
+import java.util.*;
+public class pigLatin{
+  public static void main(String[] args) {
+kb Scanner= new Scanner(System.in);
+String pig= kb.next();
+int x=0;
+int sum=0;
+for (x=0;x<=pig.length();x++) {
+
+}
+}
+}
