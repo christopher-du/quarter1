@@ -1,0 +1,19 @@
+import java.util.*;
+import java.io.*;
+public class countVowels {
+  public static void main(String[] args) {
+Scanner kb=new Scanner(System.in);ol
+System.out.println("What is the word? _");
+String str=kb.next();
+int x=0;
+for (x=0;x<=str.length();x++){
+if (str.substring(x,x+1).equals("a") || 
+str.substring(x,x+1).equals("e") || 
+str.substring(x,x+1).equals("u") || 
+str.substring(x,x+1).equals("i") || 
+str.substring(x,x+1).equals("o"));
+sum++;
+}
+System.out.println(sum);
+  }
+}
